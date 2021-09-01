@@ -1,10 +1,14 @@
 body {
   margin: 2.5%;
   background-color: khaki;
+  place-items: center;
 }
 header {
   text-align: center;
   background-color: crimson;
   padding: 0%;
   margin-top: 0;
+}
+.card {
+  
 }
