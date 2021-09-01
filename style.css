@@ -2,6 +2,8 @@ body {
   margin: 2.5%;
   background-color: khaki;
   place-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
 }
 header {
   text-align: center;
