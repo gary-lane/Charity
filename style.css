@@ -1,9 +1,9 @@
 body {
-  margin: 2.5%;
   background-color: khaki;
   place-items: center;
   display: grid;
   grid-template-columns: repeat(3, auto);
+  height: 100vh;
 }
 header {
   text-align: center;
