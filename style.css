@@ -11,10 +11,10 @@ header {
   padding: 0%;
   margin-top: 0;
 }
-.container{
+div.container{
   margin: 10em;
   background: white;
 }
-.card {
+div.card {
   background: white;
 }
