@@ -1,9 +1,6 @@
 body {
   background-color: khaki;
   place-items: center;
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  height: 100vh;
 }
 header {
   text-align: center;
@@ -11,10 +8,13 @@ header {
   padding: 0%;
   margin-top: 0;
 }
-#container{
+#container {
   margin: 10em;
   background: white;
 }
 .card {
   background: white;
+  display: flex;
+  flex-direction: row;
 }
+
