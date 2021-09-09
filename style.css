@@ -10,11 +10,20 @@ header {
 }
 #container {
   margin: 10em;
-  background: white;
+  background: beige;
+  display: flex;
+  margin: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .card {
   background: white;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  border: 5px beige solid;
+  max-width: 30%;
 }
-
+img {
+  width: 250px;
+  height: 250px;
+}
